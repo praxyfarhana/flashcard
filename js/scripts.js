@@ -1,12 +1,12 @@
 $(document).ready(function() {
   $("h4").click(function() {
-    $("p").show();
+    $("p").toggle();
   });
 });
 
-$(document).ready(function() {
+/*$(document).ready(function() {
       $(".clickable").click(function() {
         $("h4").toggle();
         $("h4").toggle();
       });
-    });
+    });*/
