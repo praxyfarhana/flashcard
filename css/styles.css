@@ -1,3 +1,28 @@
-p {
+h1  {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+ }
+
+p{
   display: none;
 }
+h4 {
+        cursor: pointer;
+        color: grey;
+      }
+
+h4:hover {
+        text-decoration: none;
+        background-color: light-blue;
+      }
+.clickable {
+              cursor: pointer;
+              color: purple;
+            }
+
+.clickable:hover {
+              text-decoration: none;
+              background-color: pink;
+              box-shadow: 5px 5px 5px blue;
+            }
